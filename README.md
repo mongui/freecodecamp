@@ -17,19 +17,19 @@ This is [the list of challenges](http://www.freecodecamp.com/map) I have to achi
 
 #### API Projects (150 hours)
 
-- [**Timestamp Microservice**](http://www.freecodecamp.com/challenges/timestamp-microservice): *Not started yet*.
-- [**Request Header Parser Microservice**](http://www.freecodecamp.com/challenges/request-header-parser-microservice): *Not started yet*.
-- [**URL Shortener Microservice**](http://www.freecodecamp.com/challenges/url-shortener-microservice): *Not started yet*.
-- [**Image Search Abstraction Layer**](http://www.freecodecamp.com/challenges/image-search-abstraction-layer): *Not started yet*.
-- [**File Metadata Microservice**](http://www.freecodecamp.com/challenges/file-metadata-microservice): *Not started yet*.
+- [**Timestamp Microservice**](http://www.freecodecamp.com/challenges/timestamp-microservice): *Not yet started*.
+- [**Request Header Parser Microservice**](http://www.freecodecamp.com/challenges/request-header-parser-microservice): *Not yet started*.
+- [**URL Shortener Microservice**](http://www.freecodecamp.com/challenges/url-shortener-microservice): *Not yet started*.
+- [**Image Search Abstraction Layer**](http://www.freecodecamp.com/challenges/image-search-abstraction-layer): *Not yet started*.
+- [**File Metadata Microservice**](http://www.freecodecamp.com/challenges/file-metadata-microservice): *Not yet started*.
 
 #### Dynamic Web Application Projects (250 hours)
 
-- [**Build a Voting App**](http://www.freecodecamp.com/challenges/build-a-voting-app): *Not started yet*.
-- [**Build a Nightlife Coordination App**](http://www.freecodecamp.com/challenges/build-a-nightlife-coordination-app): *Not started yet*.
-- [**Chart the Stock Market**](http://www.freecodecamp.com/challenges/chart-the-stock-market): *Not started yet*.
-- [**Manage a Book Trading Club**](http://www.freecodecamp.com/challenges/manage-a-book-trading-club): *Not started yet*.
-- [**Build a Pinterest Clone**](http://www.freecodecamp.com/challenges/build-a-pinterest-clone): *Not started yet*.
+- [**Build a Voting App**](http://www.freecodecamp.com/challenges/build-a-voting-app): *Not yet started*.
+- [**Build a Nightlife Coordination App**](http://www.freecodecamp.com/challenges/build-a-nightlife-coordination-app): *Not yet started*.
+- [**Chart the Stock Market**](http://www.freecodecamp.com/challenges/chart-the-stock-market): *Not yet started*.
+- [**Manage a Book Trading Club**](http://www.freecodecamp.com/challenges/manage-a-book-trading-club): *Not yet started*.
+- [**Build a Pinterest Clone**](http://www.freecodecamp.com/challenges/build-a-pinterest-clone): *Not yet started*.
 
 # Quick Start Guide
 
