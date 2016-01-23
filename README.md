@@ -6,7 +6,7 @@ My goal is to complete all the challenges available in the back-end section of t
 
 #### Technologies I'm using
 
-* [Clementine.js](https://github.com/johnstonbl01/clementinejs), [Node.js](https://nodejs.org/), [MongoDB](http://www.mongodb.org/).
+* [Clementine.js](https://github.com/johnstonbl01/clementinejs), [EJS](http://www.embeddedjs.com/), [Node.js](https://nodejs.org/), [MongoDB](http://www.mongodb.org/).
 * [Cloud9](https://c9.io/?redirect=0), [SASS](http://sass-lang.com/), [Git](https://git-scm.com/).
 
 Most of the Front End exercises I made can be found at [CodePen.io](http://codepen.io/Mongui/pens/tags/?selected_tag=freecodecamp). Feel free to visit them and tell me what you think. :o)
@@ -17,7 +17,7 @@ This is [the list of challenges](http://www.freecodecamp.com/map) I have to achi
 
 #### API Projects (150 hours)
 
-- [**Timestamp Microservice**](http://www.freecodecamp.com/challenges/timestamp-microservice): *Not yet started*.
+- [**Timestamp Microservice**](http://www.freecodecamp.com/challenges/timestamp-microservice): *Work in progress*.
 - [**Request Header Parser Microservice**](http://www.freecodecamp.com/challenges/request-header-parser-microservice): *Not yet started*.
 - [**URL Shortener Microservice**](http://www.freecodecamp.com/challenges/url-shortener-microservice): *Not yet started*.
 - [**Image Search Abstraction Layer**](http://www.freecodecamp.com/challenges/image-search-abstraction-layer): *Not yet started*.
@@ -43,6 +43,16 @@ To install this repository, download the [master branch](https://github.com/mong
 
 ```bash
 $ https://github.com/mongui/freecodecamp.git fcc-exercises
+```
+
+Then, edit .env file filling it with your data:
+
+```
+MONGO_PATH=localhost
+MONGO_PORT=27017
+MONGO_DB=freecodecamp
+SERVER_PATH=localhost
+SERVER_PORT=80
 ```
 
 To start the app, make sure you're in the project directory and type `node server.js` into the terminal. This will start the Node server and connect to MongoDB.

@@ -7,10 +7,19 @@
 html, body { height: 100%; width: 100%; }
 body { background-color: #eee; font-family: sans-serif; color: #333; }
 h1 { text-align: center; margin: 10px 0; }
-h2 { margin: 20px 0 10px 0; }
+h2, h3 { margin: 20px 0 10px 0; }
 a { text-decoration: none; color: #0096f5; }
 a:hover { text-decoration: underline; }
 li { list-style-position: inside; }
+
+pre {
+	background-color: #f0f0f0;
+	color: tomato;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	padding: 10px;
+	border-radius: 5px;
+}
 
 #container {
 	position: fixed;
