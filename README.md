@@ -18,8 +18,8 @@ This is [the list of challenges](http://www.freecodecamp.com/map) I have to achi
 #### API Projects (150 hours)
 
 - [**Timestamp Microservice**](http://www.freecodecamp.com/challenges/timestamp-microservice): *Done*.
-- [**Request Header Parser Microservice**](http://www.freecodecamp.com/challenges/request-header-parser-microservice): *Work in progress*.
-- [**URL Shortener Microservice**](http://www.freecodecamp.com/challenges/url-shortener-microservice): *Not yet started*.
+- [**Request Header Parser Microservice**](http://www.freecodecamp.com/challenges/request-header-parser-microservice): *Done*.
+- [**URL Shortener Microservice**](http://www.freecodecamp.com/challenges/url-shortener-microservice): *Work in progress*.
 - [**Image Search Abstraction Layer**](http://www.freecodecamp.com/challenges/image-search-abstraction-layer): *Not yet started*.
 - [**File Metadata Microservice**](http://www.freecodecamp.com/challenges/file-metadata-microservice): *Not yet started*.
 

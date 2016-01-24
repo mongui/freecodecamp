@@ -13,4 +13,8 @@ module.exports = function (app, db) {
     var Whoami = require(process.cwd() + '/app/controllers/whoami.js');
     var whoami = new Whoami(db);
     app.route('/projects/whoami').get(whoami.get);
+    
+    var Shurli = require(process.cwd() + '/app/controllers/shurli.js');
+    var shurli = new Shurli(db);
+    app.route('/projects/shurli').get(shurli.get);
 };
