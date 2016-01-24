@@ -9,10 +9,19 @@
 <body>
 	<div id="container">
 		<h1>URL Shortener Microservice API</h1>
-		<h3>Example usage:</h3>
-		<pre></pre>
-		<h3>Example output:</h3>
-		<pre></pre>
+		<h3>Example creation usage:</h3>
+		<pre>
+<%=url%>/projects/shurli/new/https://www.google.com
+<%=url%>/projects/shurli/new/http://freecodecamp.com/news</pre>
+		<h3>Example creation output:</h3>
+		<pre>{
+    "original_url": "http://freecodecamp.com/news",
+    "short_url": "https://shurli.herokuapp.com/4"
+}</pre>
+		<h3>Usage:</h3>
+		<pre>https://shurli.herokuapp.com/4</pre>
+		<p>Will redirect to:</p>
+		<pre>http://freecodecamp.com/news</pre>
 	</div>
 </body>
 </html>

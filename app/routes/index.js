@@ -16,5 +16,7 @@ module.exports = function (app, db) {
     
     var Shurli = require(process.cwd() + '/app/controllers/shurli.js');
     var shurli = new Shurli(db);
-    app.route('/projects/shurli').get(shurli.get);
+    app.route('/projects/shurli/new/*').get(shurli.new);
+    app.route('/projects/shurli/:id').get(shurli.url);
+    app.route('/projects/shurli').get(shurli.index);
 };
