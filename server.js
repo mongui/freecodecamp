@@ -12,7 +12,7 @@ mongo.connect('mongodb://'+process.env.MONGO_PATH+':'+process.env.MONGO_PORT+'/'
    if (err) {
       throw new Error('Database failed to connect!');
    } else {
-      console.log('Successfully connected to MongoDB on port 27017.');
+      console.log('Successfully connected to MongoDB on port '+process.env.MONGO_PORT+'.');
    }
    
    app.engine('html', ejs.__express);
