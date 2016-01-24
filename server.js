@@ -8,7 +8,7 @@ var routes = require('./app/routes/index.js');
 
 var app = express();
 
-mongo.connect('mongodb://localhost:27017/freecodecamp', function (err, db) {
+mongo.connect('mongodb://'+process.env.MONGO_PATH+':'+process.env.MONGO_PORT+'/'+process.env.MONGO_DB, function (err, db) {
    if (err) {
       throw new Error('Database failed to connect!');
    } else {
