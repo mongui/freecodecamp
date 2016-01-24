@@ -9,4 +9,8 @@ module.exports = function (app, db) {
     var Timestamp = require(process.cwd() + '/app/controllers/timestamp.js');
     var timestamp = new Timestamp(db);
     app.route('/projects/timestamp').get(timestamp.get);
+    
+    var Whoami = require(process.cwd() + '/app/controllers/whoami.js');
+    var whoami = new Whoami(db);
+    app.route('/projects/whoami').get(whoami.get);
 };
