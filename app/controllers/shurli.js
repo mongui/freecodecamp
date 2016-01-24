@@ -57,7 +57,6 @@ function shurli (db) {
    };
    
    this.index = function (req, res) {
-      console.log("Es index.");
       res.render(
          process.cwd() + '/public/projects/shurli.html',
          { url: process.env.SERVER_PATH }
