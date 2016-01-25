@@ -22,4 +22,11 @@ module.exports = function (app, db) {
     app.route('/projects/shurli/new/*').get(shurli.new);
     app.route('/projects/shurli/:id').get(shurli.url);
     app.route('/projects/shurli').get(shurli.index);
+    
+    // Image Search Abstraction Layer.
+    var Isearch = require(process.cwd() + '/app/controllers/isearch.js');
+    var isearch = new Isearch(db);
+    app.route('/projects/isearch/stats').get(isearch.stats);
+    app.route('/projects/isearch/:SEARCH').get(isearch.search);
+    app.route('/projects/isearch').get(isearch.index);
 };
