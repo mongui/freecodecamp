@@ -6,8 +6,9 @@ My goal is to complete all the challenges available in the back-end section of t
 
 #### Technologies I'm using
 
-* [Clementine.js](https://github.com/johnstonbl01/clementinejs), [EJS](http://www.embeddedjs.com/), [Node.js](https://nodejs.org/), [MongoDB](http://www.mongodb.org/).
-* [Cloud9](https://c9.io/?redirect=0), [SASS](http://sass-lang.com/), [Git](https://git-scm.com/).
+* Servers: [Node.js](https://nodejs.org/), [MongoDB](http://www.mongodb.org/).
+* Node packages: [Express.js](http://expressjs.com/), [Clementine.js](https://github.com/johnstonbl01/clementinejs), [EJS](http://www.embeddedjs.com/), [Multer](https://github.com/expressjs/multer), [DotEnv](https://github.com/motdotla/dotenv).
+* Others: [Cloud9](https://c9.io/?redirect=0), [SASS](http://sass-lang.com/), [Git](https://git-scm.com/).
 
 Most of the Front End exercises I made can be found at [CodePen.io](http://codepen.io/Mongui/pens/tags/?selected_tag=freecodecamp). Feel free to visit them and tell me what you think. :o)
 
@@ -21,7 +22,7 @@ This is [the list of challenges](http://www.freecodecamp.com/map) I have to achi
 - [**Request Header Parser Microservice**](http://www.freecodecamp.com/challenges/request-header-parser-microservice): *Done*.
 - [**URL Shortener Microservice**](http://www.freecodecamp.com/challenges/url-shortener-microservice): *Done*.
 - [**Image Search Abstraction Layer**](http://www.freecodecamp.com/challenges/image-search-abstraction-layer): *Done*.
-- [**File Metadata Microservice**](http://www.freecodecamp.com/challenges/file-metadata-microservice): *Work in progress*.
+- [**File Metadata Microservice**](http://www.freecodecamp.com/challenges/file-metadata-microservice): *Done*.
 
 #### Dynamic Web Application Projects (250 hours)
 
