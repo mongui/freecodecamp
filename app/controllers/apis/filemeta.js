@@ -13,7 +13,7 @@ function filemeta (db) {
    
    this.index = function (req, res) {
       res.render(
-         process.cwd() + '/public/projects/filemeta.html',
+         process.cwd() + '/public/views/apis/filemeta.html',
          { url: process.env.SERVER_PATH }
       );
    };

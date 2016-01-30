@@ -1,17 +1,16 @@
 {
-  "name": "clementinejs",
-  "version": "1.0.2",
-  "description": "A light-weight MEAN stack boilerplate.",
+  "name": "fccproject",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp - Back End Development Certification Projects.",
   "main": "server.js",
   "scripts": {
     "start": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnstonbl01/clementinejs"
+    "url": "git+https://github.com/mongui/freecodecamp"
   },
-  "homepage": "http://johnstonbl01.github.io/clementinejs/",
-  "bugs": "https://github.com/johnstonbl01/clementinejs/issues",
+  "homepage": "https://github.com/mongui/freecodecamp",
   "keywords": [
     "MEAN",
     "MongoDB",
@@ -21,7 +20,7 @@
     "javascript",
     "boilerplate"
   ],
-  "author": "Blake Johnston",
+  "author": "Gontzal Goikoetxea",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^1.2.0",

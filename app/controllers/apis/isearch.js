@@ -50,7 +50,7 @@ function isearch (db) {
    
    this.index = function (req, res) {
       res.render(
-         process.cwd() + '/public/projects/isearch.html',
+         process.cwd() + '/public/views/apis/isearch.html',
          { url: process.env.SERVER_PATH }
       );
    };

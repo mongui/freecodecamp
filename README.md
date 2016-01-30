@@ -26,7 +26,7 @@ This is [the list of challenges](http://www.freecodecamp.com/map) I have to achi
 
 #### Dynamic Web Application Projects (250 hours)
 
-- [**Build a Voting App**](http://www.freecodecamp.com/challenges/build-a-voting-app): *Not yet started*.
+- [**Build a Voting App**](http://www.freecodecamp.com/challenges/build-a-voting-app): *Work in progress*.
 - [**Build a Nightlife Coordination App**](http://www.freecodecamp.com/challenges/build-a-nightlife-coordination-app): *Not yet started*.
 - [**Chart the Stock Market**](http://www.freecodecamp.com/challenges/chart-the-stock-market): *Not yet started*.
 - [**Manage a Book Trading Club**](http://www.freecodecamp.com/challenges/manage-a-book-trading-club): *Not yet started*.

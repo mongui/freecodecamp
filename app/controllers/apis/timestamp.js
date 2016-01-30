@@ -33,7 +33,7 @@ function timestamp (db) {
       } else {
          // If a parameter wasn't received, return the instructions page.
          res.render(
-            process.cwd() + '/public/projects/timestamp.html',
+            process.cwd() + '/public/views/apis/timestamp.html',
             { url: process.env.SERVER_PATH }
          );
       }
