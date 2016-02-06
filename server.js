@@ -4,8 +4,8 @@ require('dotenv').load();
 var express = require('express');
 var mongo = require('mongodb');
 var ejs = require('ejs');
+var engine = require('ejs-locals');
 var routes = require('./app/routes/index.js');
-
 var app = express();
 
 mongo.connect('mongodb://'+process.env.MONGO_PATH+':'+process.env.MONGO_PORT+'/'+process.env.MONGO_DB, function (err, db) {
@@ -15,7 +15,8 @@ mongo.connect('mongodb://'+process.env.MONGO_PATH+':'+process.env.MONGO_PORT+'/'
       console.log('Successfully connected to MongoDB on port '+process.env.MONGO_PORT+'.');
    }
    
-   app.engine('html', ejs.__express);
+   app.engine('ejs', engine);
+   app.set('view engine', 'ejs');
    app.use('/public', express.static(process.cwd() + '/public'));
    app.use('/controllers', express.static(process.cwd() + '/app/controllers'));
 

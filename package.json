@@ -12,19 +12,14 @@
   },
   "homepage": "https://github.com/mongui/freecodecamp",
   "keywords": [
-    "MEAN",
-    "MongoDB",
-    "Express",
-    "Angular",
-    "Node",
-    "javascript",
-    "boilerplate"
+    "FreeCodeCamp"
   ],
   "author": "Gontzal Goikoetxea",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^1.2.0",
     "ejs": "^2.3.4",
+    "ejs-locals": "^1.0.2",
     "express": "^4.13.3",
     "mongodb": "^2.1.4",
     "multer": "^1.1.0"
