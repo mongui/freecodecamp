@@ -58,7 +58,7 @@ function shurli (db) {
    
    this.index = function (req, res) {
       res.render(
-         process.cwd() + '/public/views/apis/shurli.html',
+         process.cwd() + '/public/views/apis/shurli',
          { url: process.env.SERVER_PATH }
       );
    };
